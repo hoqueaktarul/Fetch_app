@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  text-align: center;
+  margin: 20px;
+}
+input {
+  height: 30px;
+  width: 500px;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 20px;
+  border: 0;
+  /* border-bottom: 4ps solid gray; */
+  border-bottom: 4px solid gray;
+  background-color: cadetblue;
+  outline: none;
+}
+input:focus {
+  border-bottom: 5px solid rgb(114, 91, 91);
+  font-size: 19px;
+}
+input:hover {
+  /* cursor: pointer; */
+}
+button {
+  height: 35px;
+  width: 70px;
+  border-radius: 45%;
+  font-weight: 700;
+  font-size: 15px;
+  border: 4px solid rgb(114, 91, 91);
+  color: gray;
+}
+button:hover {
+  border: 5px solid rgb(82, 65, 65);
+  cursor: pointer;
+  color: indianred;
+}
