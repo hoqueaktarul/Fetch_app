@@ -1,2 +1,4 @@
 # Fetch_app
-Created with CodeSandbox
+
+(this is a simple Api fetch app)
+Created with Vozet
